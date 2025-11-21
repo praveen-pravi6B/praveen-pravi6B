@@ -1,16 +1,77 @@
-## Hi there 👋
+<style>
+.languages, .frameworks, .tools {
+    img:hover {
+        transform: scale(1.2);
+        transition: 0.2s;
+    }
+    display: flex;
+    align-items: left;
+    gap: 4px;
+}
+</style>
 
-<!--
-**praveen-pravi6B/praveen-pravi6B** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+# Hi, I'm **Praveen Kumar** 👋  
+*A Passionate Front-end Developer | Exploring Gen AI & JS*  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+🚀 I love building cool things using **JavaScript, TypeScript** and exploring **Gen AI, DevOps**.
+
+---
+
+### 🌟 About Me
+- 🔭 I’m currently working as **Front-end Developer**
+- 🌱 Learning **Gen AI, Full-stack, DevOps**
+- 👯 Looking to collaborate on **open-source projects related to AI**
+- 📫 How to reach me: **kumarpraveen92829@gmail.com**
+
+---
+
+### 🛠️ Tech Stack  
+**Languages:**  
+<p class="languages"> 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" title="TypeScript" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" title="Shell / Bash" width="40" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" title="HTML5" alt="HTML5" width="40" height="40"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" title="CSS3" alt="CSS3" width="40" height="40"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original-wordmark.svg" title="Bootstrap" alt="Bootstrap" width="40" height="40"/>
+</p>
+
+**Frameworks & Libraries:**  
+<p class="frameworks"> 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" title="Vue.js" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" title="Next.js" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" title="Node.js" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" title="Express" width="40" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg" title="Astro" width="40" />
+</p>
+
+**Tools & Platforms:**  
+<p class="tools"> 
+    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" title="Figma" width="40" height="40"/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL Workbench" width="40" height="40"/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" title="Linux" width="40" height="40"/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" title="GitHub" width="40" height="40"/> 
+    <img src="https://cdn.simpleicons.org/render" title="Render" width="40" height="40"/> 
+    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="40" height="40"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" title="Docker" width="40" height="40"/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg" title="Vercel" width="40" height="40"/> 
+</p>
+
+---
+
+### 🏅 Digital Badges  
+Check out my badges and achievements:  
+[![@praveenpravi6b’s Holopin board](https://www.holopin.io/api/user/board?user=praveenpravi6b)](https://www.holopin.io/@praveenpravi6b)
+
+---
+
+### 📊 GitHub Stats  
+![Praveen’s GitHub Stats](https://github-readme-stats-beta-snowy-38.vercel.app/api?username=praveen-pravi6b&show_icons=true&theme=transparent)   ![Top Languages](https://github-readme-stats-beta-snowy-38.vercel.app/api/top-langs/?username=praveen-pravi6b&layout=compact&theme=transparent)
+
+---
