@@ -1,0 +1,85 @@
+name: Update Featured Projects from Sheet
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily at 6 AM UTC
+  workflow_dispatch:        # manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild projects table
+        run: |
+          node - <<'EOF'
+          const https = require('https')
+          const fs = require('fs')
+
+          const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQxFWwjf1vyxRQiaLkdsl-OomxIPYHLdCNNNqtsnjj-wswqT0SiiHOT8lW4tNAvqIHxDuNiCpK-LW6U/pub?gid=0&single=true&output=csv'
+
+          function get(url) {
+            return new Promise((resolve, reject) => {
+              https.get(url, res => {
+                if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+                  return resolve(get(res.headers.location))
+                }
+                let data = ''
+                res.on('data', c => data += c)
+                res.on('end', () => resolve(data))
+                res.on('error', reject)
+              }).on('error', reject)
+            })
+          }
+
+          function parseCsv(text) {
+            const lines = text.trim().split('\n')
+            if (lines.length < 2) return []
+            const headers = lines[0].split(',').map(h => h.trim())
+            return lines.slice(1).map(line => {
+              const vals = []
+              let cur = '', inQ = false
+              for (const ch of line) {
+                if (ch === '"') inQ = !inQ
+                else if (ch === ',' && !inQ) { vals.push(cur.trim()); cur = '' }
+                else cur += ch
+              }
+              vals.push(cur.trim())
+              const obj = {}
+              headers.forEach((h, i) => obj[h] = vals[i] ?? '')
+              return obj
+            }).filter(p => p.title)
+          }
+
+          function buildTable(projects) {
+            const rows = projects.map(p => {
+              const stack = (p.techStack || '').split('|').map(t => t.trim()).filter(Boolean).join(' · ')
+              const link = p.link ? `[**${p.title}**](${p.link})` : `**${p.title}**`
+              return `| ${link} | ${p.description} | ${stack} |`
+            }).join('\n')
+            return `<!-- PROJECTS:START -->\n| Project | What it does | Stack |\n|---|---|---|\n${rows}\n<!-- PROJECTS:END -->`
+          }
+
+          get(CSV_URL).then(csv => {
+            const projects = parseCsv(csv)
+            const table = buildTable(projects)
+            let readme = fs.readFileSync('README.md', 'utf8')
+            readme = readme.replace(/<!-- PROJECTS:START -->[\s\S]*?<!-- PROJECTS:END -->/, table)
+            fs.writeFileSync('README.md', readme)
+            console.log(`Updated README with ${projects.length} projects`)
+          }).catch(err => { console.error(err); process.exit(1) })
+          EOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "praveen-pravi6B"
+          git config user.email "kumarpraveen92829@gmail.com"
+          git diff --quiet README.md || (
+            git add README.md &&
+            git commit -m "chore: sync featured projects from Google Sheet [skip ci]" &&
+            git push
+          )
