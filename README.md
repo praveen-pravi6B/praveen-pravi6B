@@ -80,8 +80,8 @@ I build fast, beautiful web apps and ship local-first AI tools that solve real p
 
 <div align="center">
 
-![Praveen's GitHub Stats](https://github-readme-stats.vercel.app/api?username=praveen-pravi6b&show_icons=true&theme=transparent&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=praveen-pravi6b&layout=compact&theme=transparent&hide_border=true)
+![Praveen's GitHub Stats](https://github-readme-stats-beta-snowy-38.vercel.app/api?username=praveen-pravi6b&show_icons=true&theme=transparent&hide_border=true)
+![Top Languages](https://github-readme-stats-beta-snowy-38.vercel.app/api/top-langs/?username=praveen-pravi6b&layout=compact&theme=transparent&hide_border=true)
 
 </div>
 
