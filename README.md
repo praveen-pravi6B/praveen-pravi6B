@@ -28,6 +28,7 @@ I build fast, beautiful web apps and ship local-first AI tools that solve real p
 
 ### 🚀 Featured Projects
 
+<!-- PROJECTS:START -->
 | Project | What it does | Stack |
 |---|---|---|
 | [**PixelBreak**](https://github.com/praveen-pravi6B/pixelbreak) | Pre-commit visual regression & layout testing — catches broken UI before it ships | TypeScript · Playwright · llama.cpp |
@@ -36,6 +37,7 @@ I build fast, beautiful web apps and ship local-first AI tools that solve real p
 | [**GhostWatch**](https://github.com/praveen-pravi6B/ghostwatch) | Process & kernel anomaly monitor with AI-powered investigation | TypeScript · Ollama · Qwen |
 | [**LumaFrame**](https://github.com/praveen-pravi6B/lumaframe) | Chrome extension — studio-light frame for creators & streamers | JavaScript · Chrome APIs |
 | [**Space Impact Vue**](https://github.com/praveen-pravi6B/space-impact-vue) | Nokia's Space Impact refactored into clean Vue 3 architecture | Vue 3 · Vite · Canvas |
+<!-- PROJECTS:END -->
 
 ---
 
