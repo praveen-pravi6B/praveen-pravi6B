@@ -31,12 +31,12 @@ I build fast, beautiful web apps and ship local-first AI tools that solve real p
 <!-- PROJECTS:START -->
 | Project | What it does | Stack |
 |---|---|---|
-| [**PixelBreak**](https://github.com/praveen-pravi6B/pixelbreak) | Pre-commit visual regression & layout testing — catches broken UI before it ships | TypeScript · Playwright · llama.cpp |
-| [**HearWild**](https://github.com/praveen-pravi6B/hearwild) | Offline bird sound identifier — local AI, no data sent anywhere | Vue 3 · Whisper · Web Audio |
-| [**MailMate AI**](https://github.com/praveen-pravi6B/mailmate-ai-desktop) | Local-first Gmail assistant that pings you only when it matters | Python · FastAPI · Telegram |
-| [**GhostWatch**](https://github.com/praveen-pravi6B/ghostwatch) | Process & kernel anomaly monitor with AI-powered investigation | TypeScript · Ollama · Qwen |
-| [**LumaFrame**](https://github.com/praveen-pravi6B/lumaframe) | Chrome extension — studio-light frame for creators & streamers | JavaScript · Chrome APIs |
-| [**Space Impact Vue**](https://github.com/praveen-pravi6B/space-impact-vue) | Nokia's Space Impact refactored into clean Vue 3 architecture | Vue 3 · Vite · Canvas |
+| [**PixelBreak**](https://github.com/praveen-pravi6B/pixelbreak) | A local first AI assisted frontend regression testing tool that automatically catches responsive layout failures and visual regressions before they land in your repo. Blocks bad commits via a pre commit hook with no cloud no subscriptions and no screenshots leaving your machine. | TypeScript · Playwright · React · Vite · llama.cpp · Zod · Node.js · pnpm |
+| [**MailMate AI Desktop**](https://github.com/praveen-pravi6B/mailmate-ai-desktop) | A local first macOS email assistant that reads your Gmail automatically summarizes each email prioritizes it using a local AI model and notifies you via Telegram so you only act on what actually matters | Python · macOS · Gmail · Telegram · SQLite · HuggingFace · Local-AI |
+| [**HearWild**](https://github.com/praveen-pravi6B/hearwild) | An open source offline bird sound identifier that uses local AI to recognize bird species from a 6 second recording then encourages you to put your phone down and go back outside | Vue3 · Vite · FastAPI · BirdNET · ONNX · Python · SQLite |
+| [**SnapChef**](https://snap-chef-khaki.vercel.app/) | Turn your ingredients into delicious meals instantly with AI-powered recipe discovery. SnapChef is your smart kitchen assistant that helps you reduce food waste and cook creative meals with what you already have. | Vuejs · vite · Gen-ai · Gemini |
+| [**Space Impact**](https://space-impact-vue.vercel.app/) | A modern and modular remake of the classic Nokia Space Impact game built with Vue 3 and Vite. This project demonstrates how to refactor monolithic legacy JavaScript into a clean and class-based architecture. | Vuejs · vite · Game · Nokia |
+| [**LumaFrame**](https://github.com/praveen-pravi6B/LumaFrame) | A polished studio-light frame for your browser. Designed for creators / streamers and anyone working in dark rooms who needs a soft consistent light source while using their screen. | html · js · chrome |
 <!-- PROJECTS:END -->
 
 ---
