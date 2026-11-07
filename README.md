@@ -8,9 +8,9 @@
 
 I build fast, beautiful web apps and ship local-first AI tools that solve real problems.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-praveen--pravi6B.dev-6366f1?style=flat-square&logo=vercel&logoColor=white)](https://praveen-pravi6B.dev)
-[![Blog](https://img.shields.io/badge/Blog-Read%20my%20posts-a855f7?style=flat-square&logo=hashnode&logoColor=white)](https://praveen-pravi6B.dev/blog)
-[![DEV](https://img.shields.io/badge/DEV-dev.to%2Fpraveen_pravi6b-0a0a0a?style=flat-square&logo=dev.to&logoColor=white)](https://dev.to/praveen_pravi6b)
+[![Portfolio](https://img.shields.io/badge/Portfolio-praveen--pravi6B.pages.dev-6366f1?style=flat-square&logo=vercel&logoColor=white)](https://praveen-pravi6b.pages.dev/)
+[![Blog](https://img.shields.io/badge/Blog-Read%20my%20posts-a855f7?style=flat-square&logo=hashnode&logoColor=white)](https://praveen-pravi6b.pages.dev/blog)
+[![DEV](https://img.shields.io/badge/DEV-dev.to%2Fpraveen_kumar-0a0a0a?style=flat-square&logo=dev.to&logoColor=white)](https://dev.to/praveen_kumar_50c9892727f)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praveen-kumar-44a7811a9/)
 
 </div>
